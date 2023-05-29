@@ -1,0 +1,25 @@
+{
+  "name": "xp-wp-core",
+  "version": "0.1.0",
+  "main": "Gruntfile.js",
+  "author": "Ewerton",
+  "scripts": {
+    "min": "webpack --mode=none",
+    "start": "grunt default",
+    "readme": "grunt readme",
+    "i18n": "grunt i18n"
+  },
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-wp-i18n": "^1.0.3",
+    "grunt-wp-readme-to-markdown": "~1.0.0",
+    "css-loader": "^5.2.6",
+    "css-minimizer-webpack-plugin": "^3.0.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "sass": "^1.34.1",
+    "sass-loader": "^12.0.0",
+    "terser-webpack-plugin": "^5.1.3",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}

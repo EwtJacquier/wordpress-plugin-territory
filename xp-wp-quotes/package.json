@@ -1,0 +1,10 @@
+{
+  "name": "xp-wp-quotes",
+  "version": "0.1.0",
+  "author": "Ewerton",
+  "scripts": {
+    "start": "npm start --prefix \"./../xp-wp-core/\" -- --folder=xp-wp-quotes",
+    "readme": "npm readme --prefix \"./../xp-wp-core/\" -- --folder=xp-wp-quotes",
+    "i18n": "npm i18n --prefix \"./../xp-wp-core/\" -- --folder=xp-wp-quotes"
+  }
+}
